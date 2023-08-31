@@ -1,0 +1,17 @@
+package com.myapp.productDetails;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public class ProDao {
+
+@Autowired
+proRepo repo;
+
+public String dis(String a) {
+	repo.dis(a);
+	return "saved";
+}
+
+}

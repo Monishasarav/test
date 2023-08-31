@@ -1,0 +1,5 @@
+package com.myapp.Test;
+
+public interface student {
+
+}

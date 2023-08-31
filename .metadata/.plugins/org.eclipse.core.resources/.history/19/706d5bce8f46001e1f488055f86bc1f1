@@ -1,0 +1,11 @@
+package com.myapp.value;
+
+public class Value1 {
+
+@value("${hello}")	
+private String name;
+
+
+
+
+}

@@ -1,0 +1,13 @@
+package com.myapp.component;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.stereotype.Component;
+
+@Component
+public class Confi {
+@Bean
+public String a() {
+	return new String();
+}
+
+}

@@ -1,0 +1,14 @@
+package com.myapp.StudentResults;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequestMapping(value="/result")
+public class ResultsController {
+	
+@Autowired
+ResultsService ser;
+
+}

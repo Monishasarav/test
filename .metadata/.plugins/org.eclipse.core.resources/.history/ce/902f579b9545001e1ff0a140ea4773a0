@@ -1,0 +1,12 @@
+package com.myapp.annotation.ann1;
+
+import org.springframework.context.annotation.Primary;
+
+public class Senior implements Student {
+	@Primary
+	public String stud() {
+		return "senior";
+	}
+
+
+}

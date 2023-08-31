@@ -1,0 +1,17 @@
+package com.myapp.flipkart;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public class OrderDao {
+
+@Autowired
+OrderRepository repo;
+
+public String display(OrderEntity a) {
+	repo.display(a);
+	return "saved";
+}
+
+}

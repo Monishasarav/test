@@ -1,0 +1,15 @@
+package com.myapp.component;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class ConfiController {
+	@Autowired
+	String a;
+	@GetMapping(value="/abc")
+	public String getmsg() {
+		return "abc";
+	}
+}

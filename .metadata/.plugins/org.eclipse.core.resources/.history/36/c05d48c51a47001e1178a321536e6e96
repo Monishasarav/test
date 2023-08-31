@@ -1,0 +1,12 @@
+package com.myapp.Test;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class Junior implements Student  {
+
+public String getmsg() {
+	return "junior";
+}
+
+}

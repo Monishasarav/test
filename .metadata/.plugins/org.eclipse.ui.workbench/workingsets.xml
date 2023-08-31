@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1691381010210_0" label="Java Main Sources" name="Java Main Sources"/>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1691381010241_1" label="Java Test Sources" name="Java Test Sources"/>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1691833633585_7" label="lms" name="lms">
+<item elementID="=StudentDetails" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1691835626016_8" label="new" name="new">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/StudentDetails" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/StudentMarkSheet" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1691381024972_2" label="Window Working Set" name="Aggregate for window 1691381024972"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1691404045518_3" label="Window Working Set" name="Aggregate for window 1691404045518"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1691425890803_4" label="Window Working Set" name="Aggregate for window 1691425890803"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1691518940292_5" label="Window Working Set" name="Aggregate for window 1691518940292"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1691552275232_6" label="Window Working Set" name="Aggregate for window 1691552275232"/>
+<mruList name="new"/>
+</workingSetManager>

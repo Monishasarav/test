@@ -1,0 +1,16 @@
+package com.myapp.StudentResults;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+@Service
+public class ResultsService {
+
+@Autowired
+ResultsDao dao;
+
+public String display(List<Results> a) {
+	return dao.display(a);
+}
+
+}

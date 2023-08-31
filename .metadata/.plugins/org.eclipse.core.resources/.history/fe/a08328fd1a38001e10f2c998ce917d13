@@ -1,0 +1,17 @@
+package com.myapp.customer;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+//import org.springframework.web.bind.annotation.PostMapping;
+
+@Service
+public class Customerservice {
+	@Autowired
+	Customerdao dao;
+	public String postvalue(List<Customer> a) {
+		return dao.postvalue(a);
+	}
+
+}

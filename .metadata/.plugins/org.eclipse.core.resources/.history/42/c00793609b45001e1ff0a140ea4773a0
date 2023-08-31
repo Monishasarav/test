@@ -1,0 +1,11 @@
+package com.myapp.Test;
+
+import org.springframework.context.annotation.Primary;
+
+@Primary
+public class Senior {
+ public String getmsg() {
+	 return "senior";
+ }
+
+}

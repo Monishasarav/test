@@ -1,0 +1,5 @@
+package com.myapp.productDetails;
+
+public interface proRepo{
+
+}

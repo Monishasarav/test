@@ -1,0 +1,22 @@
+package com.myapp.flipkart;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequestMapping(value="/order")
+public class OrderController {
+
+@Autowired
+OrderService ser;
+
+@PostMapping(value="/display")
+public String dispaly(@RequestBody OrderEntity a) {
+	return ser.display(a);
+}
+
+
+}

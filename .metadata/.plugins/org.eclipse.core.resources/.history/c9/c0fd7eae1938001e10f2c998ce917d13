@@ -1,0 +1,16 @@
+package com.myapp.customer;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public class Customerdao {
+	@Autowired
+	Customerrepo repo;
+	public String postvalue(List<Customer> a) {
+		return repo.postvalue(a);
+	}
+
+}

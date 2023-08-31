@@ -1,0 +1,15 @@
+package com.myapp.productDetails;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+@Service
+public class ProService {
+	
+@Autowired
+ProDao dao;
+
+public String dis(String a) {
+	return dao.dis(a);
+}
+}

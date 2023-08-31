@@ -1,0 +1,9 @@
+package com.myapp.annotation.Student;
+
+public class Junior implements Student {
+
+public String stud() {
+	return "junior";
+}
+
+}

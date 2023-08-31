@@ -1,0 +1,17 @@
+package com.myapp.productDetails;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class ProController {
+	
+@Autowired
+ProService ser;
+
+@PostMapping(value="/dis")
+public String dis(String a) {
+	return ser.dis(a); 
+}
+}

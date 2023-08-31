@@ -1,0 +1,9 @@
+package com.myapp.annotation;
+
+public class Junior implements Student {
+
+public String senior() {
+	return "junior";
+}
+
+}
